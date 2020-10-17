@@ -1,4 +1,4 @@
-package crashiferr
+package errhand
 
 import (
 	"log"
