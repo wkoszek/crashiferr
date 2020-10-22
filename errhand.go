@@ -11,3 +11,11 @@ func CrashIfErr(err error) {
 		log.Fatal(err, "\n")
 	}
 }
+
+// DescrIfErr return description error if `err` isn't nill
+func DescrIfErr(err error) string {
+    if err != nil {
+        return err.Error()
+    }
+    return ""
+}
