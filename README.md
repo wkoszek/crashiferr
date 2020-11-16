@@ -1,4 +1,4 @@
-# ErrHand - Golang error handling
+# Convenient Golang error handling
 
 ErrHand is a simple Golang package to aid writing simple
 programs fast.
